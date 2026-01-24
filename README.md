@@ -1,1 +1,1 @@
-# dotfiles windows 10 Pro
+# dotfiles Arch Hyprland
