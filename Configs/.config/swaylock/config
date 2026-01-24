@@ -1,38 +1,86 @@
-daemonize
-show-failed-attempts
+# ใช้ภาพ screenshot เป็นพื้นหลัง
+screenshots
 clock
-screenshot
+fade-in=0.40
+
+# เอฟเฟกต์
 effect-blur=15x15
 effect-vignette=1:1
-color=1f1d2e80
-font="Inter"
+effect-compose=color=000000aa
+
+# Indicator
 indicator
-indicator-radius=200
-indicator-thickness=20
-line-color=1f1d2e
-ring-color=191724
-inside-color=1f1d2e
-key-hl-color=eb6f92
-separator-color=00000000
-text-color=e0def4
-text-caps-lock-color=""
-line-ver-color=eb6f92
-ring-ver-color=eb6f92
-inside-ver-color=1f1d2e
-text-ver-color=e0def4
-ring-wrong-color=31748f
-text-wrong-color=31748f
-inside-wrong-color=1f1d2e
-inside-clear-color=1f1d2e
-text-clear-color=e0def4
-ring-clear-color=9ccfd8
-line-clear-color=1f1d2e
-line-wrong-color=1f1d2e
-bs-hl-color=31748f
-grace=2
-grace-no-mouse
-grace-no-touch
+indicator-idle-visible
+indicator-radius=100
+indicator-thickness=3
+indicator-caps-lock
+
+# สีวงแหวน
+ring-color=00000000
+ring-clear-color=00000000
+ring-ver-color=00000000
+ring-wrong-color=00000000
+
+# สีด้านใน
+inside-color=00000000
+inside-clear-color=00000000
+inside-ver-color=00000000
+inside-wrong-color=00000000
+
+# เส้น
+line-color=00000000
+
+# สีข้อความ
+text-color=e6e6e64
+text-clear-color=f2d5cfff
+text-ver-color=8a8a8aff
+text-wrong-color=ed8796ff
+
+# highlight ปุ่ม
+key-hl-color=34bdebff
+bs-hl-color=ed8796ff
+
+# ฟอนต์ (รองรับภาษาไทย)
+font=IBM Plex Sans Thai
+
 datestr=%a, %B %e
 timestr=%I:%M %p
-fade-in=0.3
-ignore-empty-password
+
+; daemonize
+; show-failed-attempts
+; clock
+; screenshot
+; effect-blur=15x15
+; effect-vignette=1:1
+; color=1f1d2e80
+; font="Noto Sans"
+; indicator
+; indicator-radius=200
+; indicator-thickness=20
+; line-color=1f1d2e
+; ring-color=191724
+; inside-color=1f1d2e
+; key-hl-color=eb6f92
+; separator-color=00000000
+; text-color=e0def4
+; text-caps-lock-color=""
+; line-ver-color=eb6f92
+; ring-ver-color=eb6f92
+; inside-ver-color=1f1d2e
+; text-ver-color=e0def4
+; ring-wrong-color=31748f
+; text-wrong-color=31748f
+; inside-wrong-color=1f1d2e
+; inside-clear-color=1f1d2e
+; text-clear-color=e0def4
+; ring-clear-color=9ccfd8
+; line-clear-color=1f1d2e
+; line-wrong-color=1f1d2e
+; bs-hl-color=31748f
+; grace=2
+; grace-no-mouse
+; grace-no-touch
+; datestr=%a, %B %e
+; timestr=%I:%M %p
+; fade-in=0.3
+; ignore-empty-password
