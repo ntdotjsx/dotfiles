@@ -1,0 +1,12 @@
+{
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.activityBar.location": "hidden",
+  "editor.fontFamily": "",
+  "workbench.editor.showTabs": "single",
+  "editor.minimap.enabled": false,
+  "window.menuBarVisibility": "compact",
+  "window.menuStyle": "custom",
+  "workbench.colorTheme": "Darcula",
+  "window.titleBarStyle": "native"
+}
